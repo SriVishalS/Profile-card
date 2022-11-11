@@ -5,6 +5,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+a{
+      text-decoration: none;
+}
 :root {
   --theme-color: #ff1756;
 }
@@ -78,17 +81,20 @@ img {
   justify-content: space-around;
   margin-top: 30px;
 }
-.buttons button {
+.buttons a {
   width: 130px;
-  padding: 8px 0;
-  border-radius: 25px;
   border: 3px solid var(--theme-color);
+  height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  line-height: 40px;
+  font-size: 13px;
 }
-.buttons button:first-child {
+.buttons a:first-child {
   background-color: var(--theme-color);
   color: #ffffff;
 }
-.buttons button:last-child {
+.buttons a:last-child {
   background-color: transparent;
   color: var(--theme-color);
 }
